@@ -164,6 +164,10 @@ li {
 
 }
 
+.form__input:focus {
+    outline: none;
+}
+
 .form__check {
     display: flex;
     align-items: center;
@@ -174,6 +178,7 @@ li {
 .form__check--label {
     font-size: 18px;
     user-select: none;
+    cursor: pointer;
 }
 
 .form__check--checkbox:checked + .form__check--checkbox-icon {
