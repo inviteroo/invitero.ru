@@ -57,6 +57,7 @@ li {
 .button:hover {
     background-color: #000;
     color: var(--bg-color);
+    scale: 1.2;
 }
 
 /* SEPARATOR */
