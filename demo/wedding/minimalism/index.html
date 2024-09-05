@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./esthetic.css">
-    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./styles/minimalism.css">
+    <link rel="stylesheet" href="../../styles/base.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Sacramento&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
@@ -19,36 +19,28 @@
     <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
     <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon.png">
 
-    <title>Esthetic — Invitero</title>
+    <title>Minimalism — Invitero</title>
 </head>
 <body class="page__body">
     <main class="main">
         <section class="intro block block-main container wow animate__animated ani-fade">
-            <h2 class="intro__title">WEDDING DAY</h2>
-            <div class="dropdown">
-                <p class="dropdown__title">листайте вниз</p>
-                <div class="dropdown__dot"></div>
-            </div>
+            <p class="intro__day">WEDDING DAY</p>
+            <h2 class="intro__title">Artem & Sonya</h2>
+            <img class="intro__image" src="./images/main.jpg" alt="#">
+            <p class="intro__date">26.08.2024</p>
         </section>
-        <section class="notice block container wow animate__animated ani-fromRight">
-            <p class="notice__desc">Вы сможете стать свидетелями создания новой семьи!</p>
-            <h2>26.08.2024</h2>
-            <p class="notice__desc">Мы будем рады видеть вас в кругу наших гостей</p>
-            <img class="notice__separator separator" src="./images/day/separator.svg" alt="#">
-        </section>
-        <section class="location block-wide container wow animate__animated ani-fromLeft">
-            <h2 class="location__title">LOCATION</h2>
-            <p class="location__desc">Ждем вас по адресу:<br>Пушкина ул,. 52, стр. 2</p>
-            <h3 class="location__subtitle">PARK RODNIK</h3>
-            <img class="location__image" src="./images/esthetic/location.jpg" alt="#">
+        <section class="location block mg-top0 container wow animate__animated ani-fromBottom">
+            <h2 class="location__title">Location</h2>
+            <img class="location__image" src="./images/location.jpg" alt="#">
+            <p class="location__subtitle">Ресторан «Helsinki»<br>г. Кисловодск, ул. Кирова, 1</p>
         </section>
         <section class="dress-code block container wow animate__animated ani-fromRight">
-            <h2 class="dress-code__title"><span class="dress-code__title-up">DRESS</span><br><span class="dress-code__title-down">CODE</span></h2>
-            <p class="dress-code__desc">Мы будем очень благодарны, если вы поддержите стиль и цвет нашей свадьбы в своих нарядах</p>
-            <img class="dress-code__image" src="./images/esthetic/dress-code.png" alt="#">
+            <h2 class="dress-code__title">Dress Code</h2>
+            <p class="dress-code__desc">Нам будет особенно приятно видеть вас в элегантных нарядах, совпадающих с цветовой гаммой нашей свадьбы</p>
+            <img class="dress-code__image" src="./images/dress-code.png" alt="#">
         </section>
         <section class="events block container wow animate__animated ani-fromLeft">
-            <h2 class="events__title">EVENTS</h2>
+            <h2 class="events__title">Events</h2>
             <ul class="schedule">
                 <li class="schedule__item">
                     <p class="schedule__item--time">16:00</p>
@@ -82,10 +74,10 @@
                 </li>
             </ul>
         </section>
-        <footer class="footer footer-minimalism block block-wide container wow animate__animated ani-fromBottom">
-            <h2 class="footer__title container-inner">RSVP</h2>
-            <p class="footer__desc container-inner">Пожалуйста, подтвердите свое присутствие до 20.08.</p>
-            <form class="form container-inner">
+        <footer class="footer footer-minimalism block container wow animate__animated ani-fromBottom">
+            <h2 class="footer__title">RSVP</h2>
+            <p class="footer__desc">Пожалуйста, подтвердите свое присутствие до 20.08.</p>
+            <form class="form">
                 <p class="form__label">Ваше имя и фамилия</p>
                 <input class="form__input" type="text" placeholder="Иван Иванов" required>
                 <p class="form__label">Сможете ли вы присутствовать?</p>
@@ -106,22 +98,40 @@
                 </label>
                 <button class="form__button button">Отправить</button>
             </form>
-            <div class="footer__contacts">
-                <h3 class="footer__contacts--title">CONTACTS</h3>
-                <p class="footer__contacts--desc">По всем возникшим вопросам в день свадьбы, просьба обращаться к нашему свадебному организатору</p>
-                <p class="footer__contacts--phone">Виктория<br>+7 (900) 000-00-00</p>
-            </div>
+            <ul class="timer">
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="days">-</p>
+                    <p class="timer__sector--subtitle">дней</p>
+                </li>
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="hours">-</p>
+                    <p class="timer__sector--subtitle">часов</p>
+                </li>
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="minutes">-</p>
+                    <p class="timer__sector--subtitle">минут</p>
+                </li>
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="seconds">-</p>
+                    <p class="timer__sector--subtitle">секунд</p>
+                </li>
+            </ul>
+            <script src="../../scripts/timer.js"></script>
+            <script>
+                setDate('2024-11-01T00:00:00');
+            </script>
+            <p class="footer__sys">SEE YOU SOON</p>
         </footer>
     </main>
     <script>
-        wow = new WOW(
-            {
-            boxClass:     'wow',     
-            animateClass: 'animated',
-            offset:       0,         
-            mobile:       true,      
-            live:         true       
-            }
+   wow = new WOW(
+        {
+        boxClass:     'wow',     
+        animateClass: 'animated',
+        offset:       0,         
+        mobile:       true,      
+        live:         true       
+        }
         )
         wow.init();
     </script>

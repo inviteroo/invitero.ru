@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <p class="preview__desc">“Minimalism” - 4 000 ₽</p>
                 <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/minimalism.html">демо</a>
+                    <a class="preview__button button" href="./demo/wedding/minimalism/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <p class="preview__desc">“Day” - 4 000 ₽</p>
                 <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/day.html">демо</a>
+                    <a class="preview__button button" href="./demo/wedding/day/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <p class="preview__desc">“Wonder” - 4 000 ₽</p>
                 <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/wonder.html">демо</a>
+                    <a class="preview__button button" href="./demo/wedding/wonder/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <p class="preview__desc">“Esthetic ” - 4 000 ₽</p>
                 <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/esthetic.html">демо</a>
+                    <a class="preview__button button" href="./demo/wedding/esthetic/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>

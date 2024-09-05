@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./wonder.css">
-    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./styles/wonder.css">
+    <link rel="stylesheet" href="../../styles/base.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
 <body class="page__body">
     <main class="main">
         <section class="intro block block-main container wow animate__animated ani-fade">
-            <img class="intro__image" src="./images/wonder/main.png" alt="#">
+            <img class="intro__image" src="./images/main.png" alt="#">
             <h2 class="intro__title">Artem & Sonya</h2>
             <p class="intro__date">02.09.2024</p>
             <ul class="timer">
@@ -45,35 +45,24 @@
                     <p class="timer__sector--subtitle">секунд</p>
                 </li>
             </ul>
-            <script src="./timer.js"></script>
+            <script src="../../scripts/timer.js"></script>
             <script>
-                setDate('2026-04-01T00:00:00');
+                setDate('2025-11-01T00:00:00');
             </script>
         </section>
         <section class="notice block container wow animate__animated ani-fromRight">
             <h2 class="notice__title">ВЫ ПРИГЛАШЕНЫ</h2>
             <p class="notice__desc">Мы будем рады видеть вас в кругу наших гостей</p>
-            <img class="notice__separator separator" src="./images/wonder/separator.svg" alt="#">
+            <img class="notice__separator separator" src="./images/separator.svg" alt="#">
             <p class="notice__date">22.06.2024</p>
             <p class="notice__time">17:00</p>
         </section>
         <section class="location block container wow animate__animated ani-fromLeft">
             <h2 class="location__title">МЕСТО ПРОВЕДЕНИЯ</h2>
-            <img class="location__frame" src="./images/wonder/frame.png" alt="#">
+            <img class="location__frame" src="./images/frame.png" alt="#">
             <p class="location__desc">Подольский район, п. Быково<br>ул. Луговая, 17<br>Оранжерея Due to Love</p>
             <a class="location__btn button" href="#" target="_blank" id="mapLink">ПЕРЕЙТИ К КАРТЕ</a>
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    var mapLink = document.getElementById('mapLink');
-                    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
-                    if (isMobile) {
-                        mapLink.href = "geo:55.779274,37.620543";
-                    } else {
-                        mapLink.href = "https://yandex.ru/maps/213/moscow/?ll=37.622163%2C55.779175&mode=poi&poi%5Bpoint%5D=37.620101%2C55.779260&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1221353156&z=17.21";
-                    }
-                });
-            </script>
+            <script src="./scripts/geo.js"></script>
         </section>
         <section class="events block container wow animate__animated ani-fromRight">
             <h2 class="events__title">ПРОГРАММА ДНЯ</h2>
@@ -111,7 +100,7 @@
         <section class="dress-code block container wow animate__animated ani-fromLeft">
             <h2 class="dress-code__title">ДРЕСС-КОД</h2>
             <p class="dress-code__desc">Мы будем очень благодарны, если вы поддержите стиль и цвет нашей свадьбы в своих нарядах</p>
-            <img class="dress-code__image" src="./images/wonder/dress-code.png" alt="#">
+            <img class="dress-code__image" src="./images/dress-code.png" alt="#">
         </section>
         <footer class="footer footer-minimalism block container wow animate__animated ani-fromBottom">
             <h2 class="footer__title">RSVP</h2>
@@ -144,17 +133,6 @@
             </div>
         </footer>
     </main>
-    <script>
-        wow = new WOW(
-            {
-            boxClass:     'wow',     
-            animateClass: 'animated',
-            offset:       0,         
-            mobile:       true,      
-            live:         true       
-            }
-            )
-            wow.init();
-    </script>
+    <script src="./scripts/slider.js"></script>
 </body>
 </html>
