@@ -1,0 +1,133 @@
+.intro {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro__title {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 1;
+}
+
+@media (width >= 834px) {
+    .intro__title {
+        font-size: 48px;
+    }
+}
+
+@media (width >= 900px) {
+    .intro__title {
+        font-size: 64px;
+    }
+}
+
+.intro__heart {
+    position: relative;
+    margin: 0 auto;
+    animation: heartbeat 6s infinite;
+    width: 200px;
+    height: 170px;
+    z-index: 0;
+}
+
+.intro__heart--animation {
+    position: absolute;
+}
+
+.intro__heart--animation-front {
+    animation: front 10s infinite;
+}
+
+.intro__heart--animation-back {
+    animation: back 10s infinite;
+    transform: scaleX(-1);
+}
+
+@keyframes back {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes front {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@media (width >= 834px) {
+    @keyframes heartbeat {
+        0% {
+            transform: scale(2);
+        }
+        50% {
+            transform: scale(2.4);
+        }
+        100% {
+            transform: scale(2);
+        }
+    }
+}
+
+@media (width >= 900px) {
+    @keyframes heartbeat {
+        0% {
+            transform: scale(2.8);
+        }
+        50% {
+            transform: scale(3);
+        }
+        100% {
+            transform: scale(2.8);
+        }
+    }
+}
+
+.intro__subtitle {
+    margin-bottom: 120px;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+}
+
+@media (width >= 834px) {
+    .intro__subtitle {
+        font-size: 24px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (width >= 900px) {
+    .intro__subtitle {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+}

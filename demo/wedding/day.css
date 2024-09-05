@@ -1,0 +1,146 @@
+:root {
+    --accent-font: "Forum", sans-serif;
+    --text-font: "Forum", sans-serif;
+    --timer-title-size: 32px;
+    --bg-color: #fff;
+}
+
+img {
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    font-family: var(--accent-font);
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.intro {
+
+}
+
+.intro__day {
+    font-size: 32px;
+}
+
+.intro__date {
+    font-family: var(--accent-font);
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.intro__image {
+    
+}
+
+@media (max-height: 600px) {
+    .intro__image {
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: 350px) {
+    .intro__image {
+        padding: 0 60px;
+    }
+}
+
+.intro__title {
+    font-size: 32px;
+    margin-top: 35px;
+}
+
+
+.notice {
+
+}
+
+.notice__desc {
+    margin-bottom: 20px;
+}
+
+.notice__separator {
+
+}
+
+
+
+.location {
+
+}
+
+.location__title {
+
+}
+
+.location__frame {
+    margin-top: 30px;
+}
+
+
+
+.dress-code {
+
+}
+
+.dress-code__title {
+
+}
+
+.dress-code__desc {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dress-code__image {
+    padding: 0;
+}
+
+
+
+.events__title {
+    margin-bottom: 30px;
+}
+
+.schedule {
+    margin: 0;
+    padding: 0;
+}
+
+.schedule__item {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.schedule__item--time {
+    flex-shrink: 0;
+}
+
+.schedule__item--event {
+    flex-grow: 1;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.schedule__item--subtitle {
+    font-size: 18px;
+    flex-grow: 1;
+    padding-left: 20px;
+    text-align: left;
+    color: #575757;
+    margin-top: 10px;
+}
+
+
+
+.footer-minimalism .footer__sys {
+    font-family: var(--accent-font);
+    font-size: 24px;
+    margin-top: 30px;
+}

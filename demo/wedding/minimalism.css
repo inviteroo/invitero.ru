@@ -1,0 +1,135 @@
+:root {
+    --accent-font: "Sacramento", serif;
+    --text-font: "Forum", sans-serif;
+    --bg-color: #fff;
+    --timer-subtitle-size: 20px;
+}
+
+img {
+    padding: 0 20px;
+}
+
+h1, h2 {
+    font-weight: 400;
+    font-family: var(--accent-font);
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.intro {
+
+}
+
+.intro__day {
+    font-size: 20px;
+}
+
+.intro__title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.intro__image {
+}
+
+.intro__date {
+    font-family: var(--accent-font);
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+
+.location {
+
+}
+
+.location__title {
+}
+
+.location__image {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.location__subtitle {
+
+}
+
+
+
+.dress-code {
+
+}
+
+.dress-code__title {
+
+}
+
+.dress-code__desc {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dress-code__image {
+    padding: 0;
+}
+
+
+
+.wishes {
+
+}
+
+.wishes__desc {
+    margin-top: 20px;
+}
+
+.wishes__separator {
+
+}
+
+
+
+.events__title {
+    margin-bottom: 30px;
+}
+
+.schedule {
+    margin: 0;
+    padding: 0;
+}
+
+.schedule__item {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.schedule__item--time {
+    flex-shrink: 0;
+}
+
+.schedule__item--separator {
+    padding-left: 10px;
+}
+
+.schedule__item--event {
+    flex-grow: 1;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.footer-minimalism .footer__sys {
+    font-family: var(--accent-font);
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.footer-minimalism .timer .timer__sector .timer__sector--title {
+    font-family: var(--accent-font);
+    font-size: 32px;
+}

@@ -1,0 +1,53 @@
+.page {
+    box-sizing: border-box;
+    font-family: 'Golos Text';
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+.container {
+    width: 900px;
+    max-width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (width >= 834px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media (width >= 900px) {
+    h2 {
+        font-size: 32px;
+    }
+}
+
+.button {
+    cursor: pointer;
+    transition: 0.2s;
+    color: #000;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+}

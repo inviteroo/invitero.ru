@@ -1,0 +1,146 @@
+:root {
+    --accent-font: "Cormorant", serif;
+    --text-font: "Forum", sans-serif;
+    --bg-color: #fff;
+}
+
+
+/* BASE */
+
+h1, h2, h3 {
+    font-weight: 300;
+    font-family: var(--accent-font);
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.block-main {
+    justify-content: end !important;
+}
+
+
+/* INTRO */
+
+.intro {
+    background-image: url(./images/esthetic/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro__title {
+    font-size: 36px;
+    font-family: var(--accent-font);
+    color: #fff;
+}
+
+
+/* NOTICE */
+
+.notice {
+
+}
+
+.notice__desc {
+    margin-bottom: 20px;
+}
+
+.notice__separator {
+
+}
+
+
+/* LOCATION */
+
+.location {
+
+}
+
+.location__title {
+
+}
+
+.location__desc {
+    margin: 20px 0;
+}
+
+.location__subtitle {
+    font-size: 28px;
+}
+
+.location__image {
+    margin-top: 25px;
+}
+
+
+/* DRESS CODE */
+
+.dress-code {
+
+}
+
+.dress-code__title {
+
+}
+
+.dress-code__title-up {
+    margin-right: 80px;
+}
+
+.dress-code__title-down {
+    margin-left: 80px;
+}
+
+.dress-code__desc {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dress-code__image {
+    padding: 0 30px;
+}
+
+
+/* EVENTS */
+
+.events__title {
+    margin-bottom: 30px;
+}
+
+.schedule {
+    margin: 0;
+    padding: 0;
+}
+
+.schedule__item {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.schedule__item--time {
+    flex-shrink: 0;
+}
+
+.schedule__item--separator {
+    padding-left: 10px;
+}
+
+.schedule__item--event {
+    flex-grow: 1;
+    padding-left: 10px;
+    text-align: left;
+}
+
+
+/* FOOTER */
+
+.footer__contacts {
+    padding: 20px 30px;
+    background-color: #333;
+    border-radius: 20px;
+    color: #fff;
+}

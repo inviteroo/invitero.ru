@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./minimalism.css">
+    <link rel="stylesheet" href="./base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Sacramento&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.svg">
+    <link rel="apple-touch-icon" href="../../images/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon.png">
+
+    <title>Minimalism — Invitero</title>
+</head>
+<body class="page__body">
+    <main class="main">
+        <section class="intro block block-main container wow animate__animated ani-fade">
+            <p class="intro__day">WEDDING DAY</p>
+            <h2 class="intro__title">Artem & Sonya</h2>
+            <img class="intro__image" src="./images/minimalism/main.jpg" alt="#">
+            <p class="intro__date">26.08.2024</p>
+        </section>
+        <section class="location block mg-top0 container wow animate__animated ani-fromBottom">
+            <h2 class="location__title">Location</h2>
+            <img class="location__image" src="./images/minimalism/location.jpg" alt="#">
+            <p class="location__subtitle">Ресторан «Helsinki»<br>г. Кисловодск, ул. Кирова, 1</p>
+        </section>
+        <section class="dress-code block container wow animate__animated ani-fromRight">
+            <h2 class="dress-code__title">Dress Code</h2>
+            <p class="dress-code__desc">Нам будет особенно приятно видеть вас в элегантных нарядах, совпадающих с цветовой гаммой нашей свадьбы</p>
+            <img class="dress-code__image" src="./images/minimalism/dress-code.png" alt="#">
+        </section>
+        <section class="events block container wow animate__animated ani-fromLeft">
+            <h2 class="events__title">Events</h2>
+            <ul class="schedule">
+                <li class="schedule__item">
+                    <p class="schedule__item--time">16:00</p>
+                    <p class="schedule__item--separator">-</p>
+                    <p class="schedule__item--event">сбор гостей</p>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">17:00</p>
+                    <p class="schedule__item--separator">-</p>
+                    <p class="schedule__item--event">торжественная часть</p>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">18:00</p>
+                    <p class="schedule__item--separator">-</p>
+                    <p class="schedule__item--event">фотосессия молодоженов и гостей</p>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">19:00</p>
+                    <p class="schedule__item--separator">-</p>
+                    <p class="schedule__item--event">тосты и выступления гостей</p>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">21:00</p>
+                    <p class="schedule__item--separator">-</p>
+                    <p class="schedule__item--event">танцы и развлечения</p>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">23:00</p>
+                    <p class="schedule__item--separator">-</p>
+                    <p class="schedule__item--event">секретный гость</p>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer footer-minimalism block container wow animate__animated ani-fromBottom">
+            <h2 class="footer__title">RSVP</h2>
+            <p class="footer__desc">Пожалуйста, подтвердите свое присутствие до 20.08.</p>
+            <form class="form">
+                <p class="form__label">Ваше имя и фамилия</p>
+                <input class="form__input" type="text" placeholder="Иван Иванов" required>
+                <p class="form__label">Сможете ли вы присутствовать?</p>
+                <label class="form__check">
+                    <input class="form__check--checkbox" type="radio" name="option" checked>
+                    <span class="form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Я смогу прийти</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--checkbox" type="radio" name="option">
+                    <span class="form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Я не смогу прийти</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--checkbox" type="radio" name="option">
+                    <span class="form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Сообщу позднее</p>
+                </label>
+                <button class="form__button button">Отправить</button>
+            </form>
+            <ul class="timer">
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="days">-</p>
+                    <p class="timer__sector--subtitle">дней</p>
+                </li>
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="hours">-</p>
+                    <p class="timer__sector--subtitle">часов</p>
+                </li>
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="minutes">-</p>
+                    <p class="timer__sector--subtitle">минут</p>
+                </li>
+                <li class="timer__sector">
+                    <p class="timer__sector--title" id="seconds">-</p>
+                    <p class="timer__sector--subtitle">секунд</p>
+                </li>
+            </ul>
+            <script src="./timer.js"></script>
+            <script>
+                setDate('2024-11-01T00:00:00');
+            </script>
+            <p class="footer__sys">SEE YOU SOON</p>
+        </footer>
+    </main>
+    <script>
+   wow = new WOW(
+        {
+        boxClass:     'wow',     
+        animateClass: 'animated',
+        offset:       0,         
+        mobile:       true,      
+        live:         true       
+        }
+        )
+        wow.init();
+    </script>
+</body>
+</html>

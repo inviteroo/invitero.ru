@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="64x64" href="./images/favicon.png">
+
+    <title>Invitero</title>
+</head>
+<body class="page__body">
+    <header class="header">
+
+    </header>
+    <main class="main">
+        <section class="intro container wow animate__animated ani-fade">
+            <h1 class="intro__title">Создаем электронные<br>приглашения</h1>
+            <div class="intro__heart">
+                <img class="intro__heart--animation intro__heart--animation-front" src="./images/intro/heart.png" alt="">
+                <img class="intro__heart--animation intro__heart--animation-back" src="./images/intro/heart.png" alt="">
+            </div>
+            <p class="intro__subtitle">Электронные приглашения на свадьбу, гендер пати, день рождения, мероприятие</p>
+        </section>
+        <section class="about container wow animate__animated ani-fromBottom">
+            <h2 class="about__title">О ВАШЕМ ПРИГЛАШЕНИИ</h2>
+            <div class="phone">
+                <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                <video class="phone__screen" src="./images/phone/phone-video.mp4" autoplay loop muted playsinline></video>
+            </div>
+            <ul class="about__list">
+                <li class="about__item">
+                    <div class="about__item--cyrcle"></div>
+                    <h3 class="about__item--title">Свой сайт</h3>
+                    <p class="about__item--desc">Вы получаете личную ссылку на приглашение, действующую 1 год</p>
+                </li>
+                <li class="about__item">
+                    <div class="about__item--cyrcle"></div>
+                    <h3 class="about__item--title">Информация о мероприятии</h3>
+                    <p class="about__item--desc">Дата, локация с отметкой на карте, программа дня, дресс код, контакты организаторов, RSVP</p>
+                </li>
+                <li class="about__item">
+                    <div class="about__item--cyrcle"></div>
+                    <h3 class="about__item--title">Свой сайт</h3>
+                    <p class="about__item--desc">Возможность отображения ответов из формы в любом удобном формате</p>
+                </li>
+                <li class="about__item">
+                    <div class="about__item--cyrcle"></div>
+                    <h3 class="about__item--title">Свой сайт</h3>
+                    <p class="about__item--desc">Корректное отображение на всех устройствах</p>
+                </li>
+            </ul>
+        </section>
+        <section class="preview container wow animate__animated ani-fromBottom">
+            <h2 class="preview__title">ВЫБЕРИТЕ ПРИГЛАШЕНИЕ</h2>
+            <ul class="preview__list">
+                <li class="preview__item slider">
+                    <p class="preview__item--title">Свадьбы</p>
+                </li>
+                <li class="preview__item slider-disable">
+                    <p class="preview__item--title">Дни рождения</p>
+                </li>
+                <!-- <li class="preview__item">
+                    <p class="preview__item--title">Дни рождения</p>
+                </li>
+                <li class="preview__item">
+                    <p class="preview__item--title">Гендер пати</p>
+                </li>
+                <li class="preview__item">
+                    <p class="preview__item--title">Ивенты</p>
+                </li> -->
+                <!-- <div class="slider"></div> -->
+            </ul>
+            <!-- <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const items = document.querySelectorAll('.preview__item');
+                    const slider = document.querySelector('.slider');
+
+                    function updateSlider(targetElement) {
+                        const itemWidth = targetElement.offsetWidth;
+                        const itemLeft = targetElement.offsetLeft;
+
+                        slider.style.width = `${itemWidth}px`;
+                        slider.style.left = `${itemLeft}px`;
+                    }
+
+                    items.forEach(item => {
+                        item.addEventListener('click', () => {
+                            updateSlider(item);
+                        });
+                    });
+
+                    updateSlider(items[0]);
+                });
+            </script> -->
+            <div class="preview__container">
+                <div class="preview__content">
+                    <div class="phone">
+                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                        <img class="phone__screen" src="./images/phone/wedding/minimalism.jpg" alt="#">
+                    </div>
+                    <p class="preview__desc">“Minimalism” - 4 000 ₽</p>
+                    <nav class="preview__actions">
+                        <a class="preview__button button" href="./demo/wedding/minimalism.html">демо</a>
+                        <a class="preview__button button" href="#">заказать</a>
+                    </nav>
+                </div>
+                <div class="preview__content">
+                    <div class="phone">
+                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                        <img class="phone__screen" src="./images/phone/wedding/day.jpg" alt="#">
+                    </div>
+                    <p class="preview__desc">“Day” - 4 000 ₽</p>
+                    <nav class="preview__actions">
+                        <a class="preview__button button" href="./demo/wedding/day.html">демо</a>
+                        <a class="preview__button button" href="#">заказать</a>
+                    </nav>
+                </div>
+                <div class="preview__content">
+                    <div class="phone">
+                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                        <img class="phone__screen" src="./images/phone/wedding/wonder.jpg" alt="#">
+                    </div>
+                    <p class="preview__desc">“Wonder” - 4 000 ₽</p>
+                    <nav class="preview__actions">
+                        <a class="preview__button button" href="./demo/wedding/wonder.html">демо</a>
+                        <a class="preview__button button" href="#">заказать</a>
+                    </nav>
+                </div>
+                <div class="preview__content">
+                    <div class="phone">
+                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                        <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
+                    </div>
+                    <p class="preview__desc">“Esthetic ” - 4 000 ₽</p>
+                    <nav class="preview__actions">
+                        <a class="preview__button button" href="./demo/wedding/esthetic.html">демо</a>
+                        <a class="preview__button button" href="#">заказать</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="info container wow animate__animated ani-fromBottom">
+            <h2 class="info__title">КАК ЗАКАЗАТЬ ПРИГЛАШЕНИЕ?</h2>
+            <div class="info__grid">
+                <div class="info__grid--item">
+                    <h3 class="info__grid--item-title">1</h3>
+                    <p class="info__grid--item-desc">Заполните анкету</p>
+                    <img class="info__grid--item-arrow" src="./images/info/arrow.svg" alt="#">
+                </div>
+                <div class="info__grid--item">
+                    <h3 class="info__grid--item-title">2</h3>
+                    <p class="info__grid--item-desc">Мы с вами свяжемся и обсудим все детали</p>
+                    <img class="info__grid--item-arrow" src="./images/info/arrow.svg" alt="#">
+                </div>
+                <div class="info__grid--item">
+                    <h3 class="info__grid--item-title">3</h3>
+                    <p class="info__grid--item-desc">Создадим ваше приглашение в течение 2 дней</p>
+                    <img class="info__grid--item-arrow" src="./images/info/arrow.svg" alt="#">
+                </div>
+                <div class="info__grid--item">
+                    <h3 class="info__grid--item-title">4</h3>
+                    <p class="info__grid--item-desc">Готово! Оплачивайте и рассылайте гостям</p>
+                </div>
+                <img class="info__grid--background" src="./images/info/back.png" alt="#">
+            </div>
+        </section>
+        <section class="order container wow animate__animated ani-fromBottom">
+            <h2 class="order__title">Заказать</h2>
+            <p class="order__subtile">Для заказа электронного пригласительного напишите нам в телеграм @pashtetql, либо оставьте заявку и мы свяжемся с вами</p>
+            <form class="form">
+                <input class="form__input" type="text" placeholder="Имя">
+                <input class="form__input" type="text" placeholder="Телефон">
+                <input class="form__input" type="text" placeholder="E-mail">
+                <input class="form__input" type="text" placeholder="Telegram*" required>
+                <textarea class="form__input form__textarea form__wide" placeholder="Описание задачи" oninput="auto_grow(this)"></textarea>
+                <script>
+                    function auto_grow(element) {
+                        element.style.height = "5px";
+                        element.style.height = (element.scrollHeight)+"px";
+                    }
+                </script>
+                <label class="form__check form__wide">
+                    <input class="form__check--checkbox" type="checkbox" checked id="form-checkbox">
+                    <span class="form__check--checkbox-icon"></span>
+                    <p>Я согласен с <a href="#">правилами обработки персональных данных</a></p>
+                </label>
+                <button class="form__button form__wide">Отправить<img src="./images/form/arrow.svg" alt="#"></button>
+            </form>
+        </section>
+    </main>
+    <footer style="margin: 160px 0;">
+
+    </footer>
+    <script>
+        wow = new WOW(
+             {
+             boxClass:     'wow',     
+             animateClass: 'animated',
+             offset:       0,         
+             mobile:       true,      
+             live:         true       
+             }
+             )
+             wow.init();
+         </script>
+</body>
+</html>

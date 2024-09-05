@@ -1,0 +1,13 @@
+@import url(./colors.css);
+@import url(./animations.css);
+
+@import url(./blocks/page.css);
+
+@import url(./blocks/intro.css);
+@import url(./blocks/about.css);
+@import url(./blocks/preview.css);
+@import url(./blocks/info.css);
+@import url(./blocks/order.css);
+
+@import url(./blocks/phone.css);
+@import url(./blocks/form.css);

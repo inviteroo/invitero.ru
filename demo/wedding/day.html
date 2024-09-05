@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./day.css">
+    <link rel="stylesheet" href="./base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Sacramento&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.svg">
+    <link rel="apple-touch-icon" href="../../images/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon.png">
+
+    <title>Day — Invitero</title>
+</head>
+<body class="page__body">
+    <main class="main">
+        <section class="intro block block-main container wow animate__animated ani-fade">
+            <p class="intro__day">ПРИГЛАШЕНИЕ <br>НА СВАДЬБУ</p>
+            <p class="intro__date">02.09.2024</p>
+            <img class="intro__image" src="./images/day/main.jpg" alt="#">
+            <h2 class="intro__title">Artem & Sonya</h2>
+        </section>
+        <section class="notice block container wow animate__animated ani-fromBottom">
+            <p class="notice__desc">Дорогие родные и близкие!<br>Мы рады вам сообщить <br>о нашей свадьбе.</p>
+            <p class="notice__desc">Мы будем рады видеть вас в кругу наших гостей</p>
+            <img class="notice__separator separator" src="./images/day/separator.svg" alt="#">
+        </section>
+        <section class="location block container wow animate__animated ani-fromLeft">
+            <h2 class="location__title">МЕСТО ПРОВЕДЕНИЯ</h2>
+            <img class="location__frame" src="./images/day/frame.png" alt="#">
+        </section>
+        <section class="events block container wow animate__animated ani-fromRight">
+            <h2 class="events__title">ПРОГРАММА ДНЯ</h2>
+            <ul class="schedule">
+                <li class="schedule__item">
+                    <p class="schedule__item--time">16:00</p>
+                    <div>
+                        <p class="schedule__item--event">Сбор гостей</p>
+                        <p class="schedule__item--subtitle">Фотозона для гостей и игристые напитки </p>
+                    </div>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">16:30</p>
+                    <div>
+                        <p class="schedule__item--event">Начало церемонии</p>
+                        <p class="schedule__item--subtitle">Мы будем счастливы разделить этот момент с вами</p>
+                    </div>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">17:00</p>
+                    <div>
+                        <p class="schedule__item--event">Банкет</p>
+                        <p class="schedule__item--subtitle">Возможность сказать тосты для всех желающих</p>
+                    </div>
+                </li>
+                <li class="schedule__item">
+                    <p class="schedule__item--time">19:00</p>
+                    <div>
+                        <p class="schedule__item--event">Танцы и развлечения</p>
+                        <p class="schedule__item--subtitle">Время для танцев и наслаждения вечером</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="dress-code block container wow animate__animated ani-fromLeft">
+            <h2 class="dress-code__title">ДРЕСС-КОД</h2>
+            <p class="dress-code__desc">Мы очень старались сделать праздник красивым и будем рады, если в своих нарядах вы поддержите цветовую гамму свадьбы:</p>
+            <img class="dress-code__image" src="./images/day/dress-code.png" alt="#">
+            <p class="dress-code__desc">Вы также можете вдохновиться этими образами:</p>
+            <img class="dress-code__image" src="./images/day/dress-code-costumes.jpg" alt="#">
+        </section>
+        <section class="wishes block container wow animate__animated ani-fromRight">
+            <h2 class="wishes__title">ПОЖЕЛАНИЯ</h2>
+            <p class="wishes__desc">Если хотите подарить нам ценный и нужный подарок, мы будем очень благодарны за вклад в бюджет нашей молодой семьи</p>
+            <img class="wishes__separator separator" src="./images/day/separator.svg" alt="#">
+        </section>
+        <footer class="footer footer-minimalism block container wow animate__animated ani-fromBottom">
+            <h2 class="footer__title">RSVP</h2>
+            <p class="footer__desc">Пожалуйста, подтвердите свое присутствие до 20.08.</p>
+            <form class="form">
+                <p class="form__label">Ваше имя и фамилия</p>
+                <input class="form__input" type="text" placeholder="Иван Иванов" required>
+                <p class="form__label">Сможете ли вы присутствовать?</p>
+                <label class="form__check">
+                    <input class="form__check--checkbox" type="radio" name="option" checked>
+                    <span class="form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Я смогу прийти</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--checkbox" type="radio" name="option">
+                    <span class="form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Я не смогу прийти</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--checkbox" type="radio" name="option">
+                    <span class="form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Сообщу позднее</p>
+                </label>
+                <button class="form__button button">Отправить</button>
+            </form>
+            <div class="footer__contacts">
+                <h3 class="footer__contacts--title">КОНТАКТЫ</h3>
+                <p class="footer__contacts--desc">По всем возникшим вопросам в день свадьбы, просьба обращаться к нашему свадебному организатору</p>
+                <p class="footer__contacts--phone">Виктория<br>+7 (900) 000-00-00</p>
+            </div>
+        </footer>
+    </main>
+    <script>
+        wow = new WOW(
+            {
+            boxClass:     'wow',     
+            animateClass: 'animated',
+            offset:       0,         
+            mobile:       true,      
+            live:         true       
+            }
+            )
+            wow.init();
+    </script>
+</body>
+</html>
