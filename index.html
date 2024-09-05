@@ -108,29 +108,36 @@
                 <img class="info__grid--background" src="./images/info/back.png" alt="#">
             </div>
         </section>
+
+        <!-- НЕ ЛЕЗЬ УБЬЕТ НАХУЙ -->
+
         <section class="order container wow animate__animated ani-fromBottom">
             <h2 class="order__title">Заказать</h2>
             <p class="order__subtile">Для заказа электронного пригласительного напишите нам в телеграм @pashtetql, либо оставьте заявку и мы свяжемся с вами</p>
-            <form class="form">
-                <input class="form__input" type="text" placeholder="Имя">
-                <input class="form__input" type="text" placeholder="Телефон">
-                <input class="form__input" type="text" placeholder="E-mail">
-                <input class="form__input" type="text" placeholder="Telegram*" required>
-                <textarea class="form__input form__textarea form__wide" placeholder="Описание задачи" oninput="auto_grow(this)"></textarea>
+            <form class="form" onsubmit="send_mail(); return false;">
+                <input class="form__input" type="text" placeholder="Имя*" id="customerName" required>
+                <input class="form__input" type="text" placeholder="Телефон" id="customerPhone">
+                <input class="form__input" type="email" placeholder="E-mail*" id="customerMail" required>
+                <input class="form__input" type="text" placeholder="Telegram*" required id="customerTg">
+                <textarea class="form__input form__textarea form__wide" placeholder="Описание задачи" oninput="auto_grow(this)" id="customerText"></textarea>
                 <script>
                     function auto_grow(element) {
                         element.style.height = "5px";
-                        element.style.height = (element.scrollHeight)+"px";
+                        element.style.height = (element.scrollHeight) + "px";
                     }
                 </script>
                 <label class="form__check form__wide">
-                    <input class="form__check--checkbox" type="checkbox" checked id="form-checkbox">
+                    <input class="form__check--checkbox" type="checkbox" checked id="form-checkbox" required>
                     <span class="form__check--checkbox-icon"></span>
                     <p>Я согласен с <a href="#">правилами обработки персональных данных</a></p>
                 </label>
-                <button class="form__button form__wide">Отправить<img src="./images/form/arrow.svg" alt="#"></button>
+                <button type="submit" class="form__button form__wide">Отправить<img src="./images/form/arrow.svg" alt="#"></button>
             </form>
-        </section>
+            </section>
+            
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script src="scripts/form.js"></script>
+
     </main>
     <footer style="margin: 160px 0;">
 
