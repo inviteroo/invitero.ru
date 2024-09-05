@@ -23,16 +23,16 @@
 }
 
 .slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
     background-color: #EFC1DA;
     border-radius: 50px;
+    transition: transform 0.3s ease, width 0.3s ease, opacity 0.3s ease; /* Добавляем анимацию для opacity */
+    opacity: 0;
 }
-
-.slider-disable {
-    opacity: 0.2;
-    cursor: default;
-}
-
-
 
 .preview__container {
     margin: 60px 0;

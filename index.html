@@ -63,91 +63,25 @@
         <section class="preview container wow animate__animated ani-fromBottom">
             <h2 class="preview__title">ВЫБЕРИТЕ ПРИГЛАШЕНИЕ</h2>
             <ul class="preview__list">
-                <li class="preview__item slider">
-                    <p class="preview__item--title">Свадьбы</p>
+                <li class="preview__item" data-index="1">
+                  <p class="preview__item--title">Свадьбы</p>
                 </li>
-                <li class="preview__item slider-disable">
-                    <p class="preview__item--title">Дни рождения</p>
-                </li>
-                <!-- <li class="preview__item">
-                    <p class="preview__item--title">Дни рождения</p>
-                </li>
-                <li class="preview__item">
-                    <p class="preview__item--title">Гендер пати</p>
-                </li>
-                <li class="preview__item">
-                    <p class="preview__item--title">Ивенты</p>
+                <!-- <li class="preview__item" data-index="2">
+                  <p class="preview__item--title">Дни рождения</p>
                 </li> -->
-                <!-- <div class="slider"></div> -->
-            </ul>
-            <!-- <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    const items = document.querySelectorAll('.preview__item');
-                    const slider = document.querySelector('.slider');
-
-                    function updateSlider(targetElement) {
-                        const itemWidth = targetElement.offsetWidth;
-                        const itemLeft = targetElement.offsetLeft;
-
-                        slider.style.width = `${itemWidth}px`;
-                        slider.style.left = `${itemLeft}px`;
-                    }
-
-                    items.forEach(item => {
-                        item.addEventListener('click', () => {
-                            updateSlider(item);
-                        });
-                    });
-
-                    updateSlider(items[0]);
-                });
-            </script> -->
+                <!-- <li class="preview__item" data-index="3">
+                  <p class="preview__item--title">Гендер пати</p>
+                </li>
+                <li class="preview__item" data-index="4">
+                  <p class="preview__item--title">Ивенты</p>
+                </li> -->
+                <div class="slider"></div>
+              </ul>
+            <script src="./scripts/slider.js"></script>
             <div class="preview__container">
-                <div class="preview__content">
-                    <div class="phone">
-                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                        <img class="phone__screen" src="./images/phone/wedding/minimalism.jpg" alt="#">
-                    </div>
-                    <p class="preview__desc">“Minimalism” - 4 000 ₽</p>
-                    <nav class="preview__actions">
-                        <a class="preview__button button" href="./demo/wedding/minimalism.html">демо</a>
-                        <a class="preview__button button" href="#">заказать</a>
-                    </nav>
-                </div>
-                <div class="preview__content">
-                    <div class="phone">
-                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                        <img class="phone__screen" src="./images/phone/wedding/day.jpg" alt="#">
-                    </div>
-                    <p class="preview__desc">“Day” - 4 000 ₽</p>
-                    <nav class="preview__actions">
-                        <a class="preview__button button" href="./demo/wedding/day.html">демо</a>
-                        <a class="preview__button button" href="#">заказать</a>
-                    </nav>
-                </div>
-                <div class="preview__content">
-                    <div class="phone">
-                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                        <img class="phone__screen" src="./images/phone/wedding/wonder.jpg" alt="#">
-                    </div>
-                    <p class="preview__desc">“Wonder” - 4 000 ₽</p>
-                    <nav class="preview__actions">
-                        <a class="preview__button button" href="./demo/wedding/wonder.html">демо</a>
-                        <a class="preview__button button" href="#">заказать</a>
-                    </nav>
-                </div>
-                <div class="preview__content">
-                    <div class="phone">
-                        <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                        <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
-                    </div>
-                    <p class="preview__desc">“Esthetic ” - 4 000 ₽</p>
-                    <nav class="preview__actions">
-                        <a class="preview__button button" href="./demo/wedding/esthetic.html">демо</a>
-                        <a class="preview__button button" href="#">заказать</a>
-                    </nav>
-                </div>
+                
             </div>
+            <script src="./scripts/views.js"></script>
         </section>
         <section class="info container wow animate__animated ani-fromBottom">
             <h2 class="info__title">КАК ЗАКАЗАТЬ ПРИГЛАШЕНИЕ?</h2>
