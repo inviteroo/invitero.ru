@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Esthetic ” - 4 000 ₽</p>
+                <p class="preview__desc">“Esthetic” - 4 000 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/wedding/esthetic/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/birth-day/love.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Esthetic ” - 4 000 ₽</p>
+                <p class="preview__desc">“Love” - 4 000 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/birth-day/love/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
