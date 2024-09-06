@@ -49,7 +49,17 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `,
         '1': `
-        
+            <div class="preview__content">
+                <div class="phone">
+                    <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                    <img class="phone__screen" src="./images/phone/birth-day/love.jpg" alt="#">
+                </div>
+                <p class="preview__desc">“Esthetic ” - 4 000 ₽</p>
+                <nav class="preview__actions">
+                    <a class="preview__button button" href="./demo/birth-day/love/index.html">демо</a>
+                    <a class="preview__button button" href="#">заказать</a>
+                </nav>
+            </div>
         `
     };
   

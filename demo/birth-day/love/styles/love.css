@@ -1,0 +1,130 @@
+:root {
+    --accent-font: "Cormorant", serif;
+    --text-font: "Forum", sans-serif;
+    --timer-title-size: 48px;
+    --timer-subtitle-size: 16px;
+    --bg-color: #fff;
+}
+
+
+/* BASE */
+
+h1, h2, h3 {
+    font-weight: 400;
+    font-family: var(--accent-font);
+    font-size: 44px;
+}
+
+p {
+    font-size: 24px;
+}
+
+
+/* INTRO */
+
+.intro {
+
+}
+
+.intro__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__title {
+    text-align: left;
+    font-size: 32px;
+}
+
+.intro__title--top {
+
+}
+
+.intro__title--bottom {
+    margin-left: 60px;
+}
+
+.intro__age {
+    position: relative;
+}
+
+.intro__age--title {
+    font-size: 80px;
+    font-family: "Cormorant Infant", serif;
+}
+
+.intro__age--corner {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    height: 28px;
+    width: 26px;
+}
+
+.intro__frame {
+
+}
+
+/* LOCATION */
+
+.location {
+
+}
+
+.location__title {
+
+}
+
+.location__separator {
+
+}
+
+.location__image {
+
+}
+
+.location__desc {
+    margin-bottom: 30px;
+}
+
+
+/* DRESS CODE */
+
+.dress-code {
+
+}
+
+.dress-code__title {
+
+}
+
+.dress-code__image {
+
+}
+
+.dress-code__desc {
+
+}
+
+.dress-code__palette {
+    margin-top: 30px;
+}
+
+
+/* WISH LIST */
+
+.wish-list {
+
+}
+
+.wish-list__title {
+
+}
+
+.wish-list__separator {
+
+}
+
+.wish-list__desc {
+    margin-bottom: 30px;
+}
