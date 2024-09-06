@@ -1,0 +1,162 @@
+:root {
+    --accent-font: "Oswald", sans-serif;
+    --text-font: "Oswald", sans-serif;
+    --timer-title-size: 48px;
+    --timer-subtitle-size: 16px;
+    --bg-color: #fff;
+}
+
+
+/* BASE */
+
+.page__body {
+    background-color: #F1AD8A;
+    color: #fff;
+    font-weight: 200;
+    font-variant-caps: all-petite-caps;
+}
+
+img {
+    padding: 0 30px;
+}
+
+h1, h2, h3 {
+    font-weight: 200;
+    font-family: var(--accent-font);
+    font-size: 44px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.timing__item--title {
+    font-weight: 200 !important;
+}
+
+.button {
+    border-color: #fff !important;
+}
+
+.button:hover {
+    background-color: #fff !important;
+    color: #F1AD8A !important;
+}
+
+.form__input {
+    border-color: #fff !important;
+}
+
+.form__input::placeholder {
+    color: #EEEEEE !important;
+    font-weight: 200;
+}
+
+.form__check--icon {
+    filter: invert();
+}
+
+.form__button {
+    font-family: var(--accent-font);
+    font-weight: 200;
+    font-variant-caps: all-petite-caps;
+}
+
+/* INTRO */
+
+.intro {
+
+}
+
+.intro__title {
+    text-align: center;
+}
+
+.intro__title {
+    font-variant-caps: normal;
+    font-family: "Dancing Script", serif;
+    margin-bottom: -25px;
+    font-size: 48px;
+    z-index: 1;
+}
+
+.intro__subtitle {
+    z-index: 0;
+    font-family: "Fugaz One", serif;
+    font-size: 64px;
+    color: #F55F44;
+}
+
+.intro__image {
+
+}
+
+.intro__desc {
+    font-size: 28px;
+}
+
+.intro__date {
+    font-size: 32px;
+    color: #F55F44;
+    font-family: "Fugaz One", serif;
+}
+
+
+/* TIMING */
+
+.timing__item::before {
+    background-color: #fff !important;
+}
+
+.timing__item::after {
+    background-color: #fff !important;
+}
+
+
+/* LOCATION */
+
+.location {
+
+}
+
+.location__title {
+
+}
+
+.location__desc {
+    margin-bottom: 30px;
+}
+
+
+/* DRESS CODE */
+
+.dress-code {
+
+}
+
+.dress-code__title {
+
+}
+
+.dress-code__desc {
+
+}
+
+.dress-code__palette {
+    margin-top: 30px;
+}
+
+
+/* WISH LIST */
+
+.wish-list {
+
+}
+
+.wish-list__title {
+
+}
+
+.wish-list__desc {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="./styles/contrast.css">
+    <link rel="stylesheet" href="../../styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Dancing+Script&family=Fugaz+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.svg">
+    <link rel="apple-touch-icon" href="../../images/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="64x64" href="../../images/favicon.png">
+
+    <title>Love — Contrast</title>
+</head>
+<body class="page__body">
+    <main class="main">
+        <section class="intro block block-main container wow animate__animated ani-fade">
+            <h1 class="intro__title">Sophia' s</h1>
+            <p class="intro__subtitle">BIRTHDAY</p>
+            <img class="intro__image" src="./images/main.jpg" alt="#">
+            <p class="intro__desc">Приглашаю тебя на тусовку!</p>
+            <h2 class="intro__date">21.11.2024</h2>
+        </section>
+        <section class="timing block container wow animate__animated ani-fromRight">
+            <h2 class="timing__title">Timing</h2>
+            <ul class="timing__list">
+                <li class="timing__item">
+                    <div class="timing__item--cyrcle"></div>
+                    <h3 class="timing__item--title">17:00</h3>
+                    <p class="timing__item--desc">сбор гостей</p>
+                </li>
+                <li class="timing__item">
+                    <div class="timing__item--cyrcle"></div>
+                    <h3 class="timing__item--title">18:00</h3>
+                    <p class="timing__item--desc">начало вечеринки</p>
+                </li>
+            </ul>
+        </section>
+        <section class="location block container wow animate__animated ani-fromLeft">
+            <h2 class="location__title">Location</h2>
+            <p class="location__desc">лофт-пространство “Party hard”<br>Москва, орликов пер. 4</p>
+            <a class="button" href="#" target="_blank" id="mapLink">Карта</a>
+            <script src="./scripts/geo.js"></script>
+        </section>
+        <section class="dress-code block container wow animate__animated ani-fromRight">
+            <h2 class="dress-code__title">Dress Code</h2>
+            <p class="dress-code__desc">Классические элегантные наряды. <br>Я буду очень благодарна, если ваши наряды будут соответствовать цветовой гамме мероприятия</p>
+            <img class="dress-code__palette" src="./images/palette.png" alt="#">
+        </section>
+        <section class="wish-list block container wow animate__animated ani-fromLeft">
+            <h2 class="wish-list__title">Presents</h2>
+            <p class="wish-list__desc">прошу не дарить мне деньги, пусть это будут подарки с душой! либо воспользуйтесь виш листом</p>
+            <a class="button" href="#" target="_blank" id="mapLink">Wish List</a>
+        </section>
+        <footer class="footer block container wow animate__animated ani-fromBottom">
+            <h2 class="footer__title">RSVP</h2>
+            <p class="footer__desc">Пожалуйста, подтвердите свое присутствие до 20.08.</p>
+            <form class="form">
+                <p class="form__label">Ваше имя и фамилия</p>
+                <input class="form__input" type="text" placeholder="Иван Иванов" required>
+                <p class="form__label">Сможете ли вы присутствовать?</p>
+                <label class="form__check">
+                    <input class="form__check--input" type="radio" name="option" checked>
+                    <span class="form__check--icon form__check--radio-icon"></span>
+                    <p class="form__check--label">Я смогу прийти</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="radio" name="option">
+                    <span class="form__check--icon form__check--radio-icon"></span>
+                    <p class="form__check--label">Я не смогу прийти</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="radio" name="option">
+                    <span class="form__check--icon form__check--radio-icon"></span>
+                    <p class="form__check--label">Сообщу позднее</p>
+                </label>
+                <p class="form__label">Предпочтения по напиткам</p>
+                <label class="form__check">
+                    <input class="form__check--input" type="checkbox" name="option">
+                    <span class="form__check--icon form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Шампанское</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="checkbox" name="option">
+                    <span class="form__check--icon form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Белое вино</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="checkbox" name="option">
+                    <span class="form__check--icon form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Красное вино</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="checkbox" name="option">
+                    <span class="form__check--icon form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Мартини</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="checkbox" name="option">
+                    <span class="form__check--icon form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Джин</p>
+                </label>
+                <label class="form__check">
+                    <input class="form__check--input" type="checkbox" name="option">
+                    <span class="form__check--icon form__check--checkbox-icon"></span>
+                    <p class="form__check--label">Безалкогольное</p>
+                </label>
+                <button class="form__button button">Отправить</button>
+            </form>
+            <p class="footer__sys">SEE YOU SOON</p>
+        </footer>
+    </main>
+    <script src="../../scripts/wow.js"></script>
+</body>
+</html>

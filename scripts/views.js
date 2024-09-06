@@ -60,6 +60,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
+            <div class="preview__content">
+                <div class="phone">
+                    <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                    <img class="phone__screen" src="./images/phone/birth-day/contrast.jpg" alt="#">
+                </div>
+                <p class="preview__desc">“Contrast” - 4 000 ₽</p>
+                <nav class="preview__actions">
+                    <a class="preview__button button" href="./demo/birth-day/contrast/index.html">демо</a>
+                    <a class="preview__button button" href="#">заказать</a>
+                </nav>
+            </div>
         `
     };
   
