@@ -281,13 +281,13 @@ li {
 }
 
 .footer__sys {
-
-}
-
-.footer-minimalism .footer__sys {
+    margin-top: 60px;
     font-family: var(--accent-font);
 }
 
+.footer__sys--icon {
+    width: max-content;
+}
 
 .footer__contacts {
     margin-top: 60px;
