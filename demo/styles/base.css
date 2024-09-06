@@ -119,6 +119,59 @@ li {
     }
 }
 
+/* TIMING */
+
+.timing__list {
+    margin: 0 30px;
+    padding: 0;
+}
+
+.timing__item {
+    list-style-type: none;
+    position: relative;
+    padding-left: 36px;
+}
+
+.timing__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.timing__item::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 23px;
+    bottom: -32px;
+    width: 2px;
+    background-color: #000;
+}
+
+.timing__item:last-child:after {
+    bottom: 0;
+}
+
+.timing__item--title {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: var(--text-font);
+}
+
+.timing__item--desc {
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-align: left;
+}
+
 /* TIMER */
 
 .timer {
