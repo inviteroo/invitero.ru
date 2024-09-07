@@ -8,6 +8,11 @@
     font-family: var(--text-font), sans-serif;
 }
 
+.page__body {
+    color: #000;
+    background-color: #fff;
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
 }

@@ -10,7 +10,7 @@
 /* BASE */
 
 .page__body {
-    background-color: #F1AD8A;
+    background-color: #F1AD8A !important;
     color: #fff;
     font-weight: 200;
     font-variant-caps: all-petite-caps;
