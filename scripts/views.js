@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     const tabContents = {
         '0': `
-            <div class="preview__content">
+            <div class="preview__content ani-fade">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/minimalism.jpg" alt="#">
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
-            <div class="preview__content">
+            <div class="preview__content ani-fade">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/day.jpg" alt="#">
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
-            <div class="preview__content">
+            <div class="preview__content ani-fade">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/wonder.jpg" alt="#">
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
-            <div class="preview__content">
+            <div class="preview__content ani-fade">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `,
         '1': `
-            <div class="preview__content">
+            <div class="preview__content ani-fade">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/birth-day/love.jpg" alt="#">
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
-            <div class="preview__content">
+            <div class="preview__content ani-fade">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/birth-day/contrast.jpg" alt="#">
