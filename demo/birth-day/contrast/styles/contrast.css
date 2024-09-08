@@ -11,7 +11,7 @@
 
 .page__body {
     background-color: #F1AD8A !important;
-    color: #fff;
+    color: #fff !important;
     font-weight: 200;
     font-variant-caps: all-petite-caps;
 }
