@@ -47,7 +47,7 @@ li {
 /* MISC */
 
 .mg-top0 {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 
 
