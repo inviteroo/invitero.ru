@@ -73,6 +73,11 @@ p {
 
 .location__image {
     margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.location__btn {
+
 }
 
 
