@@ -1,0 +1,30 @@
+.policy {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.policy h1 {
+    font-size: 32px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.policy h2 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.policy ul {
+    padding: 0;
+    margin: 0;
+}
+
+.policy ul li {
+    list-style-type: none;
+    margin: 15px 0;
+    line-height: 1.2;
+}
