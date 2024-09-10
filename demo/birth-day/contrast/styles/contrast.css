@@ -62,6 +62,31 @@ p {
     font-variant-caps: all-petite-caps;
 }
 
+.feedback__form__input {
+    color: #fff;
+    border-color: #fff !important;
+}
+
+.feedback__form__input::placeholder {
+    color: #fff !important;
+}
+
+.feedback__form__check p a {
+    color: #fff !important;
+}
+
+.feedback__form__check--checkbox-icon {
+    filter: invert();
+}
+
+.feedback__form__button {
+    color: #fff;
+}
+
+.feedback__form__button img {
+    filter: invert();
+}
+
 /* INTRO */
 
 .intro {
