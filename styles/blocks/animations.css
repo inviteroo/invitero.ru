@@ -9,7 +9,7 @@
     }
 }
 
-.ani-fade {
+.animation-fade {
     animation: fade 0.5s ease;
 }
 
@@ -25,7 +25,7 @@
     }
 }
 
-.ani-fromBottom {
+.animation-fadeFromBottom {
     animation: fromBottom 0.1s ease;
 }
 
@@ -41,7 +41,7 @@
     }
 }
 
-.ani-fromRight {
+.animation-fadeFromRight {
     animation: fromRight 0.1s;
 }
 
@@ -57,6 +57,6 @@
     }
 }
 
-.ani-fromLeft {
+.animation-fadeFromLeft {
     animation: fromLeft 0.1s;
 }
