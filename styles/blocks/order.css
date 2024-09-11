@@ -11,3 +11,20 @@
     text-align: center;
     margin: 0 auto;
 }
+
+@media (width >= 834px) {
+    .order__subtile {
+        max-width: 460px;
+    }
+}
+
+@media (width >= 900px) {
+    .order__subtile {
+        max-width: 600px;
+    }
+}
+
+.order__subtile--link {
+    color: #000;
+    
+}
