@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/minimalism.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Minimalism” - 4 000 ₽</p>
+                <p class="preview__desc">“Minimalism” - 3 500 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/wedding/minimalism/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/day.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Day” - 4 000 ₽</p>
+                <p class="preview__desc">“Day” - 3 900 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/wedding/day/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/wonder.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Wonder” - 4 000 ₽</p>
+                <p class="preview__desc">“Wonder” - 4 300 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/wedding/wonder/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Esthetic” - 4 000 ₽</p>
+                <p class="preview__desc">“Esthetic” - 5 000 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/wedding/esthetic/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/birth-day/love.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Love” - 4 000 ₽</p>
+                <p class="preview__desc">“Love” - 3 000 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/birth-day/love/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
                     <img class="phone__screen" src="./images/phone/birth-day/contrast.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Contrast” - 4 000 ₽</p>
+                <p class="preview__desc">“Contrast” - 2 500 ₽</p>
                 <nav class="preview__actions">
                     <a class="preview__button button" href="./demo/birth-day/contrast/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
