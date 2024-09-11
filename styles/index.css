@@ -1,5 +1,4 @@
 @import url(./colors.css);
-@import url(./animations.css);
 
 @import url(./blocks/page.css);
 @import url(./blocks/policy.css);
@@ -12,3 +11,4 @@
 
 @import url(./blocks/phone.css);
 @import url(./blocks/form.css);
+@import url(./blocks/animations.css);
