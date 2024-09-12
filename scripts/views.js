@@ -6,22 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="preview__content">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                    <img class="phone__screen" src="./images/phone/wedding/minimalism.jpg" alt="#">
+                    <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Minimalism” - 3 500 ₽</p>
+                <p class="preview__desc">“Esthetic” - 5 000 ₽</p>
                 <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/minimalism/index.html">демо</a>
-                    <a class="preview__button button" href="#">заказать</a>
-                </nav>
-            </div>
-            <div class="preview__content">
-                <div class="phone">
-                    <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                    <img class="phone__screen" src="./images/phone/wedding/day.jpg" alt="#">
-                </div>
-                <p class="preview__desc">“Day” - 3 900 ₽</p>
-                <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/day/index.html">демо</a>
+                    <a class="preview__button button" href="./demo/wedding/esthetic/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
@@ -39,11 +28,22 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="preview__content">
                 <div class="phone">
                     <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
-                    <img class="phone__screen" src="./images/phone/wedding/esthetic.jpg" alt="#">
+                    <img class="phone__screen" src="./images/phone/wedding/day.jpg" alt="#">
                 </div>
-                <p class="preview__desc">“Esthetic” - 5 000 ₽</p>
+                <p class="preview__desc">“Day” - 3 900 ₽</p>
                 <nav class="preview__actions">
-                    <a class="preview__button button" href="./demo/wedding/esthetic/index.html">демо</a>
+                    <a class="preview__button button" href="./demo/wedding/day/index.html">демо</a>
+                    <a class="preview__button button" href="#">заказать</a>
+                </nav>
+            </div>
+            <div class="preview__content">
+                <div class="phone">
+                    <img class="phone__frame" src="./images/phone/phone_frame.svg" alt="#">
+                    <img class="phone__screen" src="./images/phone/wedding/minimalism.jpg" alt="#">
+                </div>
+                <p class="preview__desc">“Minimalism” - 3 500 ₽</p>
+                <nav class="preview__actions">
+                    <a class="preview__button button" href="./demo/wedding/minimalism/index.html">демо</a>
                     <a class="preview__button button" href="#">заказать</a>
                 </nav>
             </div>
