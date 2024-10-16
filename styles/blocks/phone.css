@@ -14,10 +14,11 @@
 }
 
 .phone__screen {
-    height: 99%;
-    width: 99%;
+    object-fit: cover;
+    height: 95%;
+    width: 90%;
     z-index: 1;
     position: absolute;
-    border-radius: 40px;
+    border-radius: 25px;
 }
 
